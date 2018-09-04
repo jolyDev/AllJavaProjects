@@ -1,0 +1,56 @@
+Krasnogon,1,13243557,78,Ukraine
+Volk,1,16643557,78,Ukraine
+Bulaevskiy,2,89241783,99,Tatarstan
+Trush,7,62019837,87,Belorusia
+Gorba,4,76726363,89,Kasahstan
+Anisich,3,12093809,94,America
+Honcharuk,4,33848102,71,Poland
+Zgurovskyi,2,12938s73,65,Ukraine
+
+	
+//	public E put(int cardNumber, Student s) {
+//		if (cardNumber <= 0 || s == null)
+//			return null;
+//		size++;
+//		if (this.root == null) {
+//			System.out.println("Tiky ras " + s.toString());
+//			this.root = new TreeNode(s);
+//			return null;
+//		}
+//		TreeNode<E> self = new TreeNode<E>();
+//		self = this.root;
+//		while (true) {
+//			if (self.st == null) {
+//				System.out.println("st == null");
+//				return null;
+//			}
+//			if (cardNumber < self.st.getID()) { // tut neponyatno
+//				if (self.left == null) {
+//					BSTree<E>.TreeNode<E> to_ret = self.addLeftChild((E) s);
+//					System.out.println(s.toString() + "Ya vnutri puta");
+//					if (to_ret == null)
+//						return null;
+//					else
+//						return to_ret.getValue();
+//				}
+//				else {
+//					System.out.println("   l> " + self.toString());
+//					self = self.left;
+//					continue;
+//				}
+//			} else {
+//				if (self.right == null) {
+//					BSTree<E>.TreeNode<E> to_ret = self.addRightChild((E) s);
+//					System.out.println(s.toString() + "Ya vnutri puta");
+//					if (to_ret == null)
+//						return null;
+//					else
+//						return to_ret.getValue();
+//				} else {
+//					System.out.println("   r> " + self.toString());
+//					self = self.right;
+//					continue;
+//				}
+//			}
+//		}
+//	}
