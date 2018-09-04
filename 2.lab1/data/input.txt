@@ -1,0 +1,7 @@
+Vernygora,Artem,55892416,KP-72
+Bulaevskiy,Igor,89241783,KP-73
+Trush,Artem,62019837,KP-73
+Gorba,Dmytro,76726363,KV-71
+Anisich,Dmytro,12093809,KM-71
+Honcharuk,BogDan,3848102,KP-72
+Zgurovskyi,Yaroslav,1293873,KP-61
